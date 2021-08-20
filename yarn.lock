@@ -1170,17 +1170,17 @@
     "@ethersproject/properties" "^5.4.0"
     "@ethersproject/strings" "^5.4.0"
 
-"@fatex-dao/default-token-list@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-1.0.0.tgz#b3be96065aa2a59878598b98e41312e6a5a7129c"
-  integrity sha512-YM2eeBrIP2fO9kIaK21D4Siy1wkgCCXiDRzD3Fs7y66yIy8GxvNyPvIY3IRfK/dAJ0DSkA9Nj+xGExIWddoNIw==
+"@fatex-dao/default-token-list@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-1.0.2.tgz#2eb27d8193b616340c607bd4a4534fa653b64d9f"
+  integrity sha512-+stO4jmDSv4abNrM3jQHJSpRSoKXzWq4GvLuMhSCakWls2BVqOFlKX7waa8fzJNVYlzsvGrniGIqHYgHTz2pzA==
 
-"@fatex-dao/sdk@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@fatex-dao/sdk/-/sdk-1.0.1.tgz#39af5ddd2f8e9d0546fb921af0754cdfd6714ec8"
-  integrity sha512-vbfqas6Bb2rglYaYHoDcDbpRmpMPrmCIML2+cmLo5dzSrv+P3JmryErv0d+MOnr3yqNsGHZPKD9KK/BMdUQimQ==
+"@fatex-dao/sdk@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/sdk/-/sdk-1.0.2.tgz#d76af0192eb6c53e49c141219b7a5145c695c48b"
+  integrity sha512-w1R1GoFAbsxl7arjmT4ZCweTrZL+GPbn3YKk0eXiGlKjDV1+Tn06uvBKAZv92fsA7ph6sCOklMZfeZH1EapsSw==
   dependencies:
-    "@venomswap/core" "^1.0.0"
+    "@uniswap/v2-core" "^1.0.1"
     big.js "^5.2.2"
     decimal.js-light "^2.5.0"
     jsbi "^3.1.1"
@@ -1649,15 +1649,15 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@uniswap/v2-core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
+  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
+
 "@venomswap/community-token-list@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@venomswap/community-token-list/-/community-token-list-2.2.0.tgz#63414c2b7bf51b5a34f5e77590fd951bd8021c2b"
   integrity sha512-Gq+juu0H/0cJPKecgDTL5yjRqXWHHtS2IJHqyzlk/FTlttloH+faSc0yfkwpmTTy5yqlc5hsbwsrn4HMH1myCg==
-
-"@venomswap/core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@venomswap/core/-/core-1.0.0.tgz#f1336702e8ecce6b79b06212220da43a34b3749c"
-  integrity sha512-cd4+e5KKH7QmSjMhe50lty35eHuZVTh9YYnkWPdQPe6KG3R5P5JE3LFliwNLpuV4jWEYYRlEa3OaG3ie+BlYrg==
 
 abab@^2.0.0:
   version "2.0.5"
