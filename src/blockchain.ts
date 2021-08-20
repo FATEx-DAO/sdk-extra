@@ -1,4 +1,4 @@
-import { ChainId, Currency, ETHER, HARMONY, BINANCE_COIN } from '@venomswap/sdk'
+import { ChainId, Currency, ETHER, HARMONY, BINANCE_COIN } from '@fatex-dao/sdk'
 import random from 'lodash.random'
 
 /**
@@ -22,7 +22,7 @@ export class BlockchainSettings {
   explorerURL?: string
   blockTime?: number
   currency?: Currency
-  
+
   constructor(chainId: ChainId, blockchain?: Blockchain, name?: string, rpcURLs?: string[], rpcAPIKey?: string, explorerURL?: string, blockTime?: number) {
     this.chainId = chainId
     this.rpcAPIKey = rpcAPIKey

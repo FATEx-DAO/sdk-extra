@@ -1,6 +1,6 @@
-import DEFAULT_TOKEN_LIST from '@venomswap/default-token-list'
+import DEFAULT_TOKEN_LIST from '@fatex-dao/default-token-list'
 import COMMUNITY_TOKEN_LIST from '@venomswap/community-token-list'
-import { ChainId, Token } from '@venomswap/sdk'
+import { ChainId, Token } from '@fatex-dao/sdk'
 
 export interface TokenListToken {
   chainId: number
@@ -15,7 +15,7 @@ export class Tokens {
   chainId?: ChainId
   rawTokens: TokenListToken[]
   tokens?: Token[]
-  
+
   constructor(chainId?: ChainId, tokens = [...DEFAULT_TOKEN_LIST.tokens, ...COMMUNITY_TOKEN_LIST.tokens]) {
     this.chainId = chainId
     this.rawTokens = tokens
@@ -66,7 +66,7 @@ export class Tokens {
 
   public find(key: string, value: string): Token[] | undefined {
     if (this.tokens === undefined) return undefined
-  
+
     switch (key) {
       case 'name':
         return this.tokens.filter((token) => token?.name?.toLowerCase() == value.toLowerCase())
@@ -82,18 +82,18 @@ export class Tokens {
   public first(key: string, value: string): Token | undefined {
     return this.find(key, value)?.[0]
   }
-  
+
   public convertTokens(tokens: TokenListToken[]): Token[] {
     const sdkTokens: Token[] = []
-  
+
     for (const token of tokens) {
       const sdkToken = this.convertToken(token)
       sdkTokens.push(sdkToken)
     }
-  
+
     return sdkTokens
   }
-  
+
   public convertToken(token: TokenListToken): Token {
     return new Token(token.chainId, token.address, token.decimals, token.symbol, token.name)
   }
