@@ -1170,10 +1170,10 @@
     "@ethersproject/properties" "^5.4.0"
     "@ethersproject/strings" "^5.4.0"
 
-"@fatex-dao/default-token-list@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-1.0.3.tgz#303fa5246267e56d6da03d471c52a42726aaf5c7"
-  integrity sha512-1W5MKK1nU+1s9QYhfo/SDgtN11RkM8zbmBUQUZ22KUTKJxj+GZT/QhnAPrP2s0kH/XnvJKvl2KyltBKt3UnNKw==
+"@fatex-dao/default-token-list@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-3.0.0.tgz#59d012731d341fb21e989cde76a0c7a3fec6c956"
+  integrity sha512-blH4Rh3uv4UW9O0UAtHQatmApSxIBBhHrMS9ATPPZrU+X1ze1vZkhZA88KYWRiOYUgfZ/g/bCBvGczXs4K69kg==
 
 "@fatex-dao/sdk@^1.0.3":
   version "1.0.3"
