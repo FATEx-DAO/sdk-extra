@@ -1175,10 +1175,10 @@
   resolved "https://registry.yarnpkg.com/@fatex-dao/community-token-list/-/community-token-list-3.0.0.tgz#f95677d48b806af7f122275aa97553ce44d0e461"
   integrity sha512-5t18zRyjZY5N7qx9twpboFMYiJKzMhb+BHen0tazxRC1IB1xxjC9e8g1R3LFLt8mCJpUIAuiepoQG0djv3lPDA==
 
-"@fatex-dao/default-token-list@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-4.2.0.tgz#59fccf0689ca21a62105b5364863030b68bdc698"
-  integrity sha512-YjmyALFq30nhqXDXEwpeO7n5RAIs7YNvNN01OdMMTDzdomzp3geA4z1O8q7tWfNFIFMu22xqqbCcoIkV9VtZjA==
+"@fatex-dao/default-token-list@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-5.0.0.tgz#ac7f084b1b177fd60d6454ad421cc0d8472e4877"
+  integrity sha512-Br5Tw+8IgYJnGarGPlvX5YFIzcDxyc1PmGK6bX3nkjtv8/HzKULf1JH/6u7n7zLy7pDlEfgk3x2ZiSMMGA9yvw==
 
 "@fatex-dao/sdk@^1.0.10":
   version "1.0.10"
