@@ -1,5 +1,5 @@
 import DEFAULT_TOKEN_LIST from '@fatex-dao/default-token-list'
-import COMMUNITY_TOKEN_LIST from '@venomswap/community-token-list'
+import COMMUNITY_TOKEN_LIST from '@fatex-dao/community-token-list'
 import { ChainId, Token } from '@fatex-dao/sdk'
 
 export interface TokenListToken {
