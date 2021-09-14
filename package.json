@@ -1,7 +1,7 @@
 {
   "name": "@fatex-dao/sdk-extra",
   "license": "MIT",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "🛠 A specific SDK/toolkit for building applications on top of FATExDAO.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
