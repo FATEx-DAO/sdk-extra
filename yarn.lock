@@ -1170,10 +1170,15 @@
     "@ethersproject/properties" "^5.4.0"
     "@ethersproject/strings" "^5.4.0"
 
-"@fatex-dao/default-token-list@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-4.0.0.tgz#405f5ce7c56547e90f70ec97a5ae4cc2565bfba2"
-  integrity sha512-SYKPE7clm4JpmEorMIeOkDQI1oPl1Vr7eY1E+BfXPubvsMIpNhmCCzykkLjHaewfJdtAvsaDr7QXKZkjupcF+A==
+"@fatex-dao/community-token-list@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/community-token-list/-/community-token-list-3.0.0.tgz#f95677d48b806af7f122275aa97553ce44d0e461"
+  integrity sha512-5t18zRyjZY5N7qx9twpboFMYiJKzMhb+BHen0tazxRC1IB1xxjC9e8g1R3LFLt8mCJpUIAuiepoQG0djv3lPDA==
+
+"@fatex-dao/default-token-list@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-5.1.0.tgz#dff04ddcbdc15db4df23c337dd38fe9255975b81"
+  integrity sha512-7g3PreZlU8OL5ruSKx4SqhwB8Brcw4LZkt9STQZPuabSc6Il5Eu8MqYE5VzfhHW5fPK2XYs7rl7fp4E3zqu7ow==
 
 "@fatex-dao/sdk@^1.0.10":
   version "1.0.10"
@@ -1653,11 +1658,6 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
-
-"@venomswap/community-token-list@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@venomswap/community-token-list/-/community-token-list-2.2.0.tgz#63414c2b7bf51b5a34f5e77590fd951bd8021c2b"
-  integrity sha512-Gq+juu0H/0cJPKecgDTL5yjRqXWHHtS2IJHqyzlk/FTlttloH+faSc0yfkwpmTTy5yqlc5hsbwsrn4HMH1myCg==
 
 abab@^2.0.0:
   version "2.0.5"
