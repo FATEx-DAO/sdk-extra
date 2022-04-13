@@ -31,13 +31,13 @@ export class Tokens {
   }
 
   public all(): Token[] | undefined {
-    if (!this.tokens || this.tokens.length == 0) return undefined
+    if (!this.tokens || this.tokens.length === 0) return undefined
     return this.tokens
   }
 
   public byChainId(): Token[] | undefined {
     if (this.chainId === undefined || this.tokens === undefined) return undefined
-    return this.tokens.filter((token: Token) => token.chainId == this.chainId)
+    return this.tokens.filter((token: Token) => token.chainId === this.chainId)
   }
 
   public byName(name: string): Token[] | undefined {
@@ -69,13 +69,13 @@ export class Tokens {
 
     switch (key) {
       case 'name':
-        return this.tokens.filter((token) => token?.name?.toLowerCase() == value.toLowerCase())
+        return this.tokens.filter(token => token?.name?.toLowerCase() === value.toLowerCase())
       case 'symbol':
-        return this.tokens.filter((token) => token?.symbol?.toLowerCase() == value.toLowerCase())
+        return this.tokens.filter(token => token?.symbol?.toLowerCase() === value.toLowerCase())
       case 'address':
-        return this.tokens.filter((token) => token?.address?.toLowerCase() == value.toLowerCase())
+        return this.tokens.filter(token => token?.address?.toLowerCase() === value.toLowerCase())
       default:
-        return this.tokens.filter((token) => token?.name?.toLowerCase() == value.toLowerCase())
+        return this.tokens.filter(token => token?.name?.toLowerCase() === value.toLowerCase())
     }
   }
 
@@ -109,4 +109,5 @@ export const TOKENS: { [chainId in ChainId]: Tokens } = {
   [ChainId.BSC_TESTNET]: new Tokens(ChainId.BSC_TESTNET),
   [ChainId.HARMONY_MAINNET]: new Tokens(ChainId.HARMONY_MAINNET),
   [ChainId.HARMONY_TESTNET]: new Tokens(ChainId.HARMONY_TESTNET),
+  [ChainId.POLYGON_MAINNET]: new Tokens(ChainId.POLYGON_MAINNET)
 }

@@ -2,7 +2,6 @@ import { ChainId, Token } from '@fatex-dao/sdk'
 import { Tokens, TOKENS } from '../src/'
 
 describe('Tokens', () => {
-
   describe('Without specifying a chain id', () => {
     it('can correctly parse tokens from token lists', () => {
       const tokens = new Tokens().tokens
@@ -104,5 +103,4 @@ describe('Tokens', () => {
       expect(busdTokens).toHaveLength(1)
     })
   })
-
 })
