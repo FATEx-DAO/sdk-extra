@@ -1,4 +1,4 @@
-import { BINANCE_COIN, ChainId, Currency, ETHER, HARMONY } from '@fatex-dao/sdk'
+import { BINANCE_COIN, ChainId, Currency, ETHER, HARMONY, MATIC } from '@fatex-dao/sdk'
 import random from 'lodash.random'
 
 /**
@@ -99,6 +99,12 @@ export class BlockchainSettings {
         case 1666700000:
           this.name = 'Harmony Testnet'
           break
+        case 137:
+          this.name = 'Polygon Mainnet'
+          break
+        case 80001:
+          this.name = 'Polygon Testnet'
+          break
         default:
           this.name = 'Ethereum Mainnet'
       }
@@ -160,6 +166,16 @@ export class BlockchainSettings {
         case 1666700000:
           this.rpcURLs = ['https://api.s0.b.hmny.io/']
           break
+        case 137:
+          this.rpcURLs = [
+            'https://polygon-rpc.com/',
+            'https://rpc-mainnet.matic.network',
+            'https://matic-mainnet.chainstacklabs.com'
+          ]
+          break
+        case 80001:
+          this.rpcURLs = ['https://rpc-mumbai.matic.network', 'https://matic-mumbai.chainstacklabs.com']
+          break
         default:
           this.rpcURLs =
             this.rpcAPIKey && this.rpcAPIKey !== ''
@@ -201,6 +217,12 @@ export class BlockchainSettings {
         case 1666700000:
           this.explorerURL = 'https://explorer.testnet.harmony.one/#/'
           break
+        case 137:
+          this.explorerURL = 'https://polygonscan.com/'
+          break
+        case 80001:
+          this.explorerURL = 'https://mumbai.polygonscan.com/'
+          break
         default:
           this.explorerURL = 'https://etherscan.io/'
       }
@@ -216,6 +238,10 @@ export class BlockchainSettings {
       case 1666600000:
       case 1666700000:
         this.currency = HARMONY
+        break
+      case 137:
+      case 80001:
+        this.currency = MATIC
         break
       default:
         this.currency = ETHER
@@ -233,6 +259,10 @@ export class BlockchainSettings {
           break
         case 1666600000:
         case 1666700000:
+          this.blockTime = 2
+          break
+        case 137:
+        case 80001:
           this.blockTime = 2
           break
         default:
