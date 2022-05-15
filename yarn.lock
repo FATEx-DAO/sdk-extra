@@ -1180,10 +1180,10 @@
   resolved "https://registry.yarnpkg.com/@fatex-dao/default-token-list/-/default-token-list-12.1.0.tgz#61cf910189bb7342cbcf54857e762f2b73a689aa"
   integrity sha512-FGQb952aTnbpBas/V2T2RpjXtfOunOa58T/0slv+q8J9NF0wNfYY7PhIzFtKU4j4EKyNFHEVXrAZmatypOEmcA==
 
-"@fatex-dao/sdk@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@fatex-dao/sdk/-/sdk-2.2.1.tgz#bd9fd9b1a366bb9092bc305a45e8877f01f47f48"
-  integrity sha512-9XbbdAt8xPDBCvSm8avB+jUOk7QvIlKcSTQDM/3MiG7+IGo5bcPtdJfaevLEAM2j1gSaL+CNulZBXEOHkDTMmg==
+"@fatex-dao/sdk@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@fatex-dao/sdk/-/sdk-2.2.2.tgz#5c9c2e36c6731e42fb369b6a6320e63f81f84e5c"
+  integrity sha512-FUzzQPyskJjJjO+3o9TcDpnNJAfOvlC/EbkoXOF7thv18xJ0W4rR269WxvSF+2VAck+QBVYHY5JQP3yXVvxJ+g==
   dependencies:
     "@uniswap/v2-core" "^1.0.1"
     big.js "^5.2.2"
